@@ -43,7 +43,7 @@
     ]
   },
   "dependencies": {
-    "@vercel/build-utils": "6.3.0",
+    "@vercel/build-utils": "6.7.5",
     "@vercel/routing-utils": "2.1.9",
     "@zeit/fetch": "5.2.0",
     "async-retry": "1.2.3",
