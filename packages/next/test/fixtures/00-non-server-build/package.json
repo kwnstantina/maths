@@ -3,7 +3,7 @@
     "node": "16.x"
   },
   "dependencies": {
-    "next": "10.0.5",
+    "next": "13.5.4",
     "react": "latest",
     "react-dom": "latest"
   }
