@@ -9,7 +9,7 @@
     "node": "16.x"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
+    "core-js": "^3.36.1",
     "vue": "^3.0.0"
   },
   "devDependencies": {
