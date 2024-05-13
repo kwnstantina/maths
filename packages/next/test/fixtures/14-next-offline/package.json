@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "next": "canary",
-    "next-offline": "4.0.6",
+    "next-offline": "5.0.0",
     "react": "latest",
     "react-dom": "latest"
   }
