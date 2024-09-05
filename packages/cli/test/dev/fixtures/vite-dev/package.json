@@ -5,7 +5,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "3.2.37"
+    "vue": "3.3.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "1.10.2",
