@@ -3,6 +3,6 @@
     "build": "not used - required for zero-config"
   },
   "dependencies": {
-    "serve": "14.0.1"
+    "serve": "14.2.4"
   }
 }
