@@ -6,7 +6,7 @@
     "node": "16.x"
   },
   "dependencies": {
-    "next": "8.0.3",
+    "next": "8.0.4",
     "react": "latest",
     "react-dom": "latest"
   }
