@@ -6,6 +6,6 @@
   "dependencies": {
     "chrome-aws-lambda": "7.0.0",
     "lighthouse": "7.4.0",
-    "puppeteer-core": "7.0.0"
+    "puppeteer-core": "20.1.2"
   }
 }
