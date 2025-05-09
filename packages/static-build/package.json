@@ -29,7 +29,7 @@
     }
   },
   "dependencies": {
-    "@vercel/gatsby-plugin-vercel-analytics": "1.0.7",
+    "@vercel/gatsby-plugin-vercel-analytics": "1.0.11",
     "@vercel/gatsby-plugin-vercel-builder": "1.1.7"
   },
   "devDependencies": {
