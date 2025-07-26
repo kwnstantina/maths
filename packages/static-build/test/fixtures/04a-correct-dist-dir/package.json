@@ -4,6 +4,6 @@
     "now-build": "mkdir out && echo 'output:RANDOMNESS_PLACEHOLDER' > out/index.txt"
   },
   "dependencies": {
-    "@vue/cli-service": "3.11.0"
+    "@vue/cli-service": "5.0.1"
   }
 }
