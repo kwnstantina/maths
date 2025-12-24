@@ -21,8 +21,8 @@
     "server-edge.mjs"
   ],
   "dependencies": {
-    "@remix-run/dev": "1.12.0",
-    "@vercel/nft": "0.22.5",
+    "@remix-run/dev": "2.0.0",
+    "@vercel/nft": "0.27.8",
     "@vercel/static-config": "2.0.13",
     "path-to-regexp": "6.2.1",
     "ts-morph": "12.0.0"
