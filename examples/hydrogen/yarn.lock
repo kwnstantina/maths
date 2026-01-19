@@ -784,19 +784,21 @@
     web-streams-polyfill "^3.2.0"
     worktop "^0.7.3"
 
-"@shopify/hydrogen@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@shopify/hydrogen/-/hydrogen-1.0.2.tgz#1564ad896049a668a8f9274ad3bb9cf001c4c74f"
-  integrity sha512-dT+RJyfp7vca4Gv10noRnWTkmHMOYwcGI57QxJ3ReN1D2XbbkSadrgAYlu0EFpJdjCvVrEr6e4Qzbtx5pJOY/g==
+"@shopify/hydrogen@^1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@shopify/hydrogen/-/hydrogen-1.7.4.tgz#16b684eebecaef4beb3aaeea2f521330424be3b2"
+  integrity sha512-Z6MJ2X42LFfvOb+ruMkdztHtmkrDHRL9ETvqzUD5BQwB4nUTzZVVn+ESWCRLAPeh/Gi4hHTxjDXHPb96tJ+6rg==
   dependencies:
     "@vitejs/plugin-react" "^1.3.0"
+    "@xstate/fsm" "^2.0.0"
+    "@xstate/react" "^3.0.0"
     abort-controller "^3.0.0"
     body-parser "^1.20.0"
     compression "^1.7.4"
     connect "^3.7.0"
     es-module-lexer "^0.10.0"
     fast-glob "^3.2.11"
-    graphql "^16.3.0"
+    graphql "^16.8.1"
     graphql-tag "^2.12.6"
     history "^5.3.0"
     kolorist "^1.5.1"
@@ -807,7 +809,7 @@
     react-helmet-async "^1.3.0"
     serve-static "^1.15.0"
     set-cookie-parser "^2.5.0"
-    undici "^5.5.1"
+    undici "^6.13.0"
     uuid "^8.3.2"
     vite-plugin-inspect "^0.3.6"
     web-streams-polyfill "^3.2.0"
@@ -1107,6 +1109,19 @@
   version "1.9.5"
   resolved "https://registry.yarnpkg.com/@xobotyi/scrollbar-width/-/scrollbar-width-1.9.5.tgz#80224a6919272f405b87913ca13b92929bdf3c4d"
   integrity sha512-N8tkAACJx2ww8vFMneJmaAgmjAG1tnVBZJRLRcx061tmsLRZHSEZSLuGWnwPtunsSLvSqXQ2wfp7Mgqg1I+2dQ==
+
+"@xstate/fsm@^2.0.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@xstate/fsm/-/fsm-2.1.0.tgz#269f0bc411f3eac0dd04e55d51cbd07411a04f9a"
+  integrity sha512-oJlc0iD0qZvAM7If/KlyJyqUt7wVI8ocpsnlWzAPl97evguPbd+oJbRM9R4A1vYJffYH96+Bx44nLDE6qS8jQg==
+
+"@xstate/react@^3.0.0":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@xstate/react/-/react-3.2.2.tgz#ddf0f9d75e2c19375b1e1b7335e72cb99762aed8"
+  integrity sha512-feghXWLedyq8JeL13yda3XnHPZKwYDN5HPBLykpLeuNpr9178tQd2/3d0NrH6gSd0sG5mLuLeuD+ck830fgzLQ==
+  dependencies:
+    use-isomorphic-layout-effect "^1.1.2"
+    use-sync-external-store "^1.0.0"
 
 abort-controller@^3.0.0:
   version "3.0.0"
@@ -3224,6 +3239,11 @@ graphql@^16.3.0, graphql@^16.4.0:
   version "16.5.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.5.0.tgz#41b5c1182eaac7f3d47164fb247f61e4dfb69c85"
   integrity sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==
+
+graphql@^16.8.1:
+  version "16.12.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.12.0.tgz#28cc2462435b1ac3fdc6976d030cef83a0c13ac7"
+  integrity sha512-DKKrynuQRne0PNpEbzuEdHlYOMksHSUI8Zc9Unei5gTsMNA2/vMpoMz/yKba50pejK56qj98qM0SjYxAKi13gQ==
 
 haikunator@^2.1.2:
   version "2.1.2"
@@ -6208,6 +6228,11 @@ undici@^5.5.1:
   resolved "https://registry.yarnpkg.com/undici/-/undici-5.6.0.tgz#3fd695d4454970bae3d151326ee4ab645b8d1962"
   integrity sha512-mc+8SY1fXubTrdx4CXDkeFFGV8lI3Tq4I/70U1V8Z6g4iscGII0uLO7CPnDt56bXEbvaKwo2T2+VrteWbZiXiQ==
 
+undici@^6.13.0:
+  version "6.23.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.23.0.tgz#7953087744d9095a96f115de3140ca3828aff3a4"
+  integrity sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==
+
 unique-string@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/unique-string/-/unique-string-3.0.0.tgz#84a1c377aff5fd7a8bc6b55d8244b2bd90d75b9a"
@@ -6258,6 +6283,16 @@ urlpattern-polyfill@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/urlpattern-polyfill/-/urlpattern-polyfill-4.0.3.tgz#c1fa7a73eb4e6c6a1ffb41b24cf31974f7392d3b"
   integrity sha512-DOE84vZT2fEcl9gqCUTcnAw5ZY5Id55ikUcziSUntuEFL3pRvavg5kwDmTEUJkeCHInTlV/HexFomgYnzO5kdQ==
+
+use-isomorphic-layout-effect@^1.1.2:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.2.1.tgz#2f11a525628f56424521c748feabc2ffcc962fce"
+  integrity sha512-tpZZ+EX0gaghDAiFR37hj5MgY6ZN55kLiPkJsKxBMZ6GZdOSPJXiOzPM984oPYZ5AnehYx5WQp1+ME8I/P/pRA==
+
+use-sync-external-store@^1.0.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.6.0.tgz#b174bfa65cb2b526732d9f2ac0a408027876f32d"
+  integrity sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   version "1.0.2"
