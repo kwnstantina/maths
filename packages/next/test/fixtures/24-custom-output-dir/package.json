@@ -6,7 +6,7 @@
     "node": "16.x"
   },
   "dependencies": {
-    "next": "canary",
+    "next": "15.5.10",
     "react": "latest",
     "react-dom": "latest"
   }
